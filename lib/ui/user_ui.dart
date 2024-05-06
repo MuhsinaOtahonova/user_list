@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:user_list/model/user.dart'; // Kullanıcı modeli
-import 'package:user_list/utils/userData.dart'; // Veritabanı fonksiyonları
+import 'package:user_list/utils/user_data.dart'; // Veritabanı fonksiyonları
 
 class UserListWidget extends StatelessWidget {
   @override

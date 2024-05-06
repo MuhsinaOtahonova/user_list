@@ -3,7 +3,7 @@ import 'package:user_list/utils/dbconnection.dart';
 
 Future<List<User>> getUsersFromDatabase() async {
   final results = await PostgresDbConnection.executeQueryWithParams(
-    'SELECT * FROM users',
+    'SELECT * FROM member',
     [],
   );
 
